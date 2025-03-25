@@ -1,0 +1,25 @@
+2025-03-20T20:15:05.511+05:30  INFO 29232 --- [OnlineBookStore] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.36
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-20T20:15:07.049+05:30  INFO 29232 --- [OnlineBookStore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-20T20:15:07.172+05:30  INFO 29232 --- [OnlineBookStore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-20T20:15:07.634+05:30  WARN 29232 --- [OnlineBookStore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-20T20:15:08.103+05:30  WARN 29232 --- [OnlineBookStore] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-03-20T20:15:08.355+05:30  INFO 29232 --- [OnlineBookStore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-03-20T20:15:08.369+05:30  INFO 29232 --- [OnlineBookStore] [main] c.e.b.OnlineBookStoreApplication         : Started OnlineBookStoreApplication in 8.588 seconds (process running for 9.825)
+2025-03-20T20:15:15.533+05:30  INFO 29232 --- [OnlineBookStore] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-20T20:15:15.534+05:30  INFO 29232 --- [OnlineBookStore] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-20T20:15:15.537+05:30  INFO 29232 --- [OnlineBookStore] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-03-20T20:15:15.629+05:30  INFO 29232 --- [OnlineBookStore] [http-nio-8081-exec-1] c.e.bookstore.service.BookServiceImpl    : Fetching book with ID: 15
+2025-03-20T20:15:19.420+05:30  INFO 29232 --- [OnlineBookStore] [http-nio-8081-exec-2] c.e.bookstore.service.BookServiceImpl    : Fetching all books...
+2025-03-20T20:15:21.968+05:30  INFO 29232 --- [OnlineBookStore] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-20T20:15:21.971+05:30  INFO 29232 --- [OnlineBookStore] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-20T20:15:22.009+05:30  INFO 29232 --- [OnlineBookStore] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-20T20:15:22.016+05:30  INFO 29232 --- [OnlineBookStore] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-20T20:15:22.020+05:30  INFO 29232 --- [OnlineBookStore] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-20T20:15:22.036+05:30  INFO 29232 --- [OnlineBookStore] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

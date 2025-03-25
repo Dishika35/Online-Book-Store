@@ -1,0 +1,36 @@
+2025-03-21T14:53:49.805+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-9] c.example.bookstore.util.MetricsTracker  : Operation 'addBook' completed in 186 ms
+2025-03-21T14:53:49.810+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-9] c.example.bookstore.util.MetricsTracker  : --------------------------------------------------
+
+2025-03-21T14:54:15.892+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-10] c.example.bookstore.util.MetricsTracker  : Starting operation: deleteBook
+2025-03-21T14:54:15.893+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-10] c.e.bookstore.service.BookServiceImpl    : Deleting book with ID: 17
+2025-03-21T14:54:16.737+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-10] c.e.bookstore.service.BookServiceImpl    : Book with ID 17 deleted successfully
+2025-03-21T14:54:16.737+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-10] c.example.bookstore.util.MetricsTracker  : Operation 'deleteBook' completed in 845 ms
+2025-03-21T14:54:16.738+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-10] c.example.bookstore.util.MetricsTracker  : --------------------------------------------------
+
+2025-03-21T14:54:38.131+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-2] c.example.bookstore.util.MetricsTracker  : Starting operation: addBook
+2025-03-21T14:54:38.131+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-2] c.e.bookstore.service.BookServiceImpl    : Adding new book: The Alchemist
+2025-03-21T14:54:38.143+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-2] c.e.bookstore.service.BookServiceImpl    : New book added successfully with ID: 18 and Name: The Alchemist
+2025-03-21T14:54:38.144+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-2] c.example.bookstore.util.MetricsTracker  : Operation 'addBook' completed in 13 ms
+2025-03-21T14:54:38.144+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-2] c.example.bookstore.util.MetricsTracker  : --------------------------------------------------
+
+2025-03-21T14:54:44.265+05:30  WARN 23112 --- [OnlineBookStore] [http-nio-8081-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-03-21T14:54:59.997+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-3] c.example.bookstore.util.MetricsTracker  : Starting operation: deleteBook
+2025-03-21T14:54:59.998+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-3] c.e.bookstore.service.BookServiceImpl    : Deleting book with ID: 18
+2025-03-21T14:55:00.024+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-3] c.e.bookstore.service.BookServiceImpl    : Book with ID 18 deleted successfully
+2025-03-21T14:55:00.024+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-3] c.example.bookstore.util.MetricsTracker  : Operation 'deleteBook' completed in 27 ms
+2025-03-21T14:55:00.024+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-3] c.example.bookstore.util.MetricsTracker  : --------------------------------------------------
+
+2025-03-21T14:55:06.010+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-4] c.example.bookstore.util.MetricsTracker  : Starting operation: addBook
+2025-03-21T14:55:06.010+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-4] c.e.bookstore.service.BookServiceImpl    : Adding new book: The Alchemist
+2025-03-21T14:55:06.020+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-4] c.e.bookstore.service.BookServiceImpl    : New book added successfully with ID: 19 and Name: The Alchemist
+2025-03-21T14:55:06.020+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-4] c.example.bookstore.util.MetricsTracker  : Operation 'addBook' completed in 10 ms
+2025-03-21T14:55:06.021+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-4] c.example.bookstore.util.MetricsTracker  : --------------------------------------------------
+
+2025-03-21T14:55:12.518+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-5] c.example.bookstore.util.MetricsTracker  : Starting operation: getBookById
+2025-03-21T14:55:12.519+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-5] c.e.bookstore.service.BookServiceImpl    : Fetching book with ID: 19
+2025-03-21T14:55:12.525+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-5] c.e.bookstore.service.BookServiceImpl    : Returning book with ID: 19 and Name: The Alchemist
+2025-03-21T14:55:12.526+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-5] c.example.bookstore.util.MetricsTracker  : Operation 'getBookById' completed in 8 ms
+2025-03-21T14:55:12.526+05:30  INFO 23112 --- [OnlineBookStore] [http-nio-8081-exec-5] c.example.bookstore.util.MetricsTracker  : --------------------------------------------------
+
+2025-03-21T14:56:41.587+05:30  INFO 23112 --- [OnlineBookStore] [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-21T14:56:41.597+05:30  INFO 23112 --- [OnlineBookStore] [RMI TCP Connection(10)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete

@@ -1,0 +1,33 @@
+2025-03-21T16:41:53.696+05:30  INFO 24692 --- [OnlineBookStore] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.36
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-21T16:41:55.196+05:30  INFO 24692 --- [OnlineBookStore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-21T16:41:55.283+05:30  INFO 24692 --- [OnlineBookStore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T16:41:55.697+05:30  WARN 24692 --- [OnlineBookStore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-21T16:41:56.106+05:30  WARN 24692 --- [OnlineBookStore] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-03-21T16:41:56.361+05:30  INFO 24692 --- [OnlineBookStore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-03-21T16:41:56.375+05:30  INFO 24692 --- [OnlineBookStore] [main] c.e.b.OnlineBookStoreApplication         : Started OnlineBookStoreApplication in 7.517 seconds (process running for 8.698)
+2025-03-21T16:43:49.050+05:30  INFO 24692 --- [OnlineBookStore] [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-21T16:43:49.054+05:30  INFO 24692 --- [OnlineBookStore] [RMI TCP Connection(4)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-21T16:43:49.091+05:30  INFO 24692 --- [OnlineBookStore] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-21T16:43:49.097+05:30  INFO 24692 --- [OnlineBookStore] [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T16:43:49.100+05:30  INFO 24692 --- [OnlineBookStore] [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-21T16:43:49.115+05:30  INFO 24692 --- [OnlineBookStore] [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-21T16:45:47.926+05:30  INFO 28900 --- [OnlineBookStore] [main] c.e.b.OnlineBookStoreApplication         : Starting OnlineBookStoreApplication using Java 21.0.1 with PID 28900 (C:\Users\pc\eclipse-2024-workspace\OnlineBookStore\target\classes started by pc in C:\Users\pc\eclipse-2024-workspace\OnlineBookStore)
+2025-03-21T16:45:47.930+05:30  INFO 28900 --- [OnlineBookStore] [main] c.e.b.OnlineBookStoreApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-03-21T16:45:49.031+05:30  INFO 28900 --- [OnlineBookStore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-21T16:45:49.144+05:30  INFO 28900 --- [OnlineBookStore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 1 JPA repository interface.
+2025-03-21T16:45:49.969+05:30  INFO 28900 --- [OnlineBookStore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-03-21T16:45:49.994+05:30  INFO 28900 --- [OnlineBookStore] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-21T16:45:49.995+05:30  INFO 28900 --- [OnlineBookStore] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-21T16:45:50.113+05:30  INFO 28900 --- [OnlineBookStore] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-21T16:45:50.114+05:30  INFO 28900 --- [OnlineBookStore] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2112 ms
+2025-03-21T16:45:50.407+05:30  INFO 28900 --- [OnlineBookStore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-21T16:45:50.531+05:30  INFO 28900 --- [OnlineBookStore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-21T16:45:50.602+05:30  INFO 28900 --- [OnlineBookStore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-21T16:45:51.152+05:30  INFO 28900 --- [OnlineBookStore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer

@@ -1,0 +1,14 @@
+2025-03-21T18:49:21.080+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-8] c.example.bookstore.util.MetricsTracker  : --------------------------------------------------
+
+2025-03-21T18:49:25.557+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-9] c.example.bookstore.util.MetricsTracker  : Starting operation: getBookById
+2025-03-21T18:49:25.559+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-9] c.e.bookstore.service.BookServiceImpl    : Fetching book with ID: 19
+2025-03-21T18:49:25.570+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-9] c.e.bookstore.service.BookServiceImpl    : Returning book with ID: 19 and Name: Dune
+2025-03-21T18:49:25.571+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-9] c.example.bookstore.util.MetricsTracker  : Operation 'getBookById' completed in 14 ms
+2025-03-21T18:49:25.571+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-9] c.example.bookstore.util.MetricsTracker  : --------------------------------------------------
+
+2025-03-21T18:49:33.824+05:30  INFO 22280 --- [OnlineBookStore] [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-21T18:49:33.837+05:30  INFO 22280 --- [OnlineBookStore] [RMI TCP Connection(6)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-21T18:49:33.872+05:30  INFO 22280 --- [OnlineBookStore] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-21T18:49:33.883+05:30  INFO 22280 --- [OnlineBookStore] [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T18:49:33.891+05:30  INFO 22280 --- [OnlineBookStore] [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-21T18:49:33.916+05:30  INFO 22280 --- [OnlineBookStore] [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

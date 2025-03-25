@@ -1,0 +1,32 @@
+2025-03-21T17:52:16.021+05:30  INFO 25628 --- [OnlineBookStore] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2177 ms
+2025-03-21T17:52:16.310+05:30  INFO 25628 --- [OnlineBookStore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-21T17:52:16.443+05:30  INFO 25628 --- [OnlineBookStore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-21T17:52:16.512+05:30  INFO 25628 --- [OnlineBookStore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-21T17:52:17.087+05:30  INFO 25628 --- [OnlineBookStore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-21T17:52:17.148+05:30  INFO 25628 --- [OnlineBookStore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-21T17:52:17.900+05:30  INFO 25628 --- [OnlineBookStore] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a4930cf
+2025-03-21T17:52:17.904+05:30  INFO 25628 --- [OnlineBookStore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-21T17:52:18.004+05:30  WARN 25628 --- [OnlineBookStore] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-21T17:52:18.046+05:30  INFO 25628 --- [OnlineBookStore] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.36
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-21T17:52:19.594+05:30  INFO 25628 --- [OnlineBookStore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-21T17:52:19.690+05:30  INFO 25628 --- [OnlineBookStore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T17:52:20.112+05:30  WARN 25628 --- [OnlineBookStore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-21T17:52:20.526+05:30  WARN 25628 --- [OnlineBookStore] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-03-21T17:52:20.781+05:30  INFO 25628 --- [OnlineBookStore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-03-21T17:52:20.795+05:30  INFO 25628 --- [OnlineBookStore] [main] c.e.b.OnlineBookStoreApplication         : Started OnlineBookStoreApplication in 7.835 seconds (process running for 9.019)
+2025-03-21T17:52:26.564+05:30  INFO 25628 --- [OnlineBookStore] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-21T17:52:26.569+05:30  INFO 25628 --- [OnlineBookStore] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-21T17:52:26.611+05:30  INFO 25628 --- [OnlineBookStore] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-21T17:52:26.618+05:30  INFO 25628 --- [OnlineBookStore] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T17:52:26.622+05:30  INFO 25628 --- [OnlineBookStore] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-21T17:52:26.639+05:30  INFO 25628 --- [OnlineBookStore] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-21T18:47:12.148+05:30  INFO 22280 --- [OnlineBookStore] [main] c.e.b.OnlineBookStoreApplication         : Starting OnlineBookStoreApplication using Java 21.0.1 with PID 22280 (C:\Users\pc\eclipse-2024-workspace\OnlineBookStore\target\classes started by pc in C:\Users\pc\eclipse-2024-workspace\OnlineBookStore)
+2025-03-21T18:47:12.151+05:30  INFO 22280 --- [OnlineBookStore] [main] c.e.b.OnlineBookStoreApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-03-21T18:47:13.144+05:30  INFO 22280 --- [OnlineBookStore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.

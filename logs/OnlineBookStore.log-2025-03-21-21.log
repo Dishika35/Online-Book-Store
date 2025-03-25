@@ -1,0 +1,32 @@
+2025-03-21T16:45:51.220+05:30  INFO 28900 --- [OnlineBookStore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-21T16:45:51.991+05:30  INFO 28900 --- [OnlineBookStore] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b8d20e6
+2025-03-21T16:45:51.995+05:30  INFO 28900 --- [OnlineBookStore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-21T16:45:52.095+05:30  WARN 28900 --- [OnlineBookStore] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-21T16:45:52.135+05:30  INFO 28900 --- [OnlineBookStore] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.36
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-21T16:45:53.653+05:30  INFO 28900 --- [OnlineBookStore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-21T16:45:53.756+05:30  INFO 28900 --- [OnlineBookStore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T16:45:54.182+05:30  WARN 28900 --- [OnlineBookStore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-21T16:45:54.582+05:30  WARN 28900 --- [OnlineBookStore] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-03-21T16:45:54.859+05:30  INFO 28900 --- [OnlineBookStore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-03-21T16:45:54.872+05:30  INFO 28900 --- [OnlineBookStore] [main] c.e.b.OnlineBookStoreApplication         : Started OnlineBookStoreApplication in 7.75 seconds (process running for 8.921)
+2025-03-21T16:47:57.690+05:30  INFO 28900 --- [OnlineBookStore] [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-21T16:47:57.734+05:30  INFO 28900 --- [OnlineBookStore] [RMI TCP Connection(4)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-21T16:47:57.788+05:30  INFO 28900 --- [OnlineBookStore] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-21T16:47:57.813+05:30  INFO 28900 --- [OnlineBookStore] [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T16:47:57.823+05:30  INFO 28900 --- [OnlineBookStore] [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-21T16:47:57.862+05:30  INFO 28900 --- [OnlineBookStore] [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-21T17:52:13.762+05:30  INFO 25628 --- [OnlineBookStore] [main] c.e.b.OnlineBookStoreApplication         : Starting OnlineBookStoreApplication using Java 21.0.1 with PID 25628 (C:\Users\pc\eclipse-2024-workspace\OnlineBookStore\target\classes started by pc in C:\Users\pc\eclipse-2024-workspace\OnlineBookStore)
+2025-03-21T17:52:13.766+05:30  INFO 25628 --- [OnlineBookStore] [main] c.e.b.OnlineBookStoreApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-03-21T17:52:14.878+05:30  INFO 25628 --- [OnlineBookStore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-21T17:52:14.988+05:30  INFO 25628 --- [OnlineBookStore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 1 JPA repository interface.
+2025-03-21T17:52:15.885+05:30  INFO 25628 --- [OnlineBookStore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-03-21T17:52:15.915+05:30  INFO 25628 --- [OnlineBookStore] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-21T17:52:15.915+05:30  INFO 25628 --- [OnlineBookStore] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-21T17:52:16.021+05:30  INFO 25628 --- [OnlineBookStore] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext

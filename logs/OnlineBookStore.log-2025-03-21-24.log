@@ -1,0 +1,37 @@
+2025-03-21T18:47:39.991+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-2] c.example.bookstore.util.MetricsTracker  : Operation 'getAllBooks' completed in 532 ms
+2025-03-21T18:47:39.995+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-2] c.example.bookstore.util.MetricsTracker  : --------------------------------------------------
+
+2025-03-21T18:47:53.436+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-3] c.example.bookstore.util.MetricsTracker  : Starting operation: getBookById
+2025-03-21T18:47:53.436+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-3] c.e.bookstore.service.BookServiceImpl    : Fetching book with ID: 16
+2025-03-21T18:47:53.471+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-3] c.e.bookstore.service.BookServiceImpl    : Returning book with ID: 16 and Name: The Book Thief
+2025-03-21T18:47:53.472+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-3] c.example.bookstore.util.MetricsTracker  : Operation 'getBookById' completed in 36 ms
+2025-03-21T18:47:53.472+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-3] c.example.bookstore.util.MetricsTracker  : --------------------------------------------------
+
+2025-03-21T18:48:00.589+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-4] c.example.bookstore.util.MetricsTracker  : Starting operation: deleteBook
+2025-03-21T18:48:00.589+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-4] c.e.bookstore.service.BookServiceImpl    : Deleting book with ID: 16
+2025-03-21T18:48:01.438+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-4] c.e.bookstore.service.BookServiceImpl    : Book with ID 16 deleted successfully
+2025-03-21T18:48:01.438+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-4] c.example.bookstore.util.MetricsTracker  : Operation 'deleteBook' completed in 849 ms
+2025-03-21T18:48:01.438+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-4] c.example.bookstore.util.MetricsTracker  : --------------------------------------------------
+
+2025-03-21T18:48:13.381+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-5] c.example.bookstore.util.MetricsTracker  : Starting operation: getAllBooks
+2025-03-21T18:48:13.382+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-5] c.e.bookstore.service.BookServiceImpl    : Fetching all books...
+2025-03-21T18:48:13.392+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-5] c.e.bookstore.service.BookServiceImpl    : All books fetched successfully. Total books: 2
+2025-03-21T18:48:13.393+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-5] c.example.bookstore.util.MetricsTracker  : Operation 'getAllBooks' completed in 12 ms
+2025-03-21T18:48:13.393+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-5] c.example.bookstore.util.MetricsTracker  : --------------------------------------------------
+
+2025-03-21T18:48:35.403+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-6] c.example.bookstore.util.MetricsTracker  : Starting operation: addBook
+2025-03-21T18:48:35.404+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-6] c.e.bookstore.service.BookServiceImpl    : Adding new book: Dune
+2025-03-21T18:48:35.469+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-6] c.e.bookstore.service.BookServiceImpl    : New book added successfully with ID: 22 and Name: Dune
+2025-03-21T18:48:35.470+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-6] c.example.bookstore.util.MetricsTracker  : Operation 'addBook' completed in 67 ms
+2025-03-21T18:48:35.471+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-6] c.example.bookstore.util.MetricsTracker  : --------------------------------------------------
+
+2025-03-21T18:48:39.864+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-7] c.example.bookstore.util.MetricsTracker  : Starting operation: getAllBooks
+2025-03-21T18:48:39.864+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-7] c.e.bookstore.service.BookServiceImpl    : Fetching all books...
+2025-03-21T18:48:39.877+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-7] c.e.bookstore.service.BookServiceImpl    : All books fetched successfully. Total books: 3
+2025-03-21T18:48:39.877+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-7] c.example.bookstore.util.MetricsTracker  : Operation 'getAllBooks' completed in 13 ms
+2025-03-21T18:48:39.877+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-7] c.example.bookstore.util.MetricsTracker  : --------------------------------------------------
+
+2025-03-21T18:49:21.019+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-8] c.example.bookstore.util.MetricsTracker  : Starting operation: updateBook
+2025-03-21T18:49:21.020+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-8] c.e.bookstore.service.BookServiceImpl    : Updating book with ID: 19
+2025-03-21T18:49:21.079+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-8] c.e.bookstore.service.BookServiceImpl    : Returning updated book with ID: 19 and Name: Dune
+2025-03-21T18:49:21.080+05:30  INFO 22280 --- [OnlineBookStore] [http-nio-8081-exec-8] c.example.bookstore.util.MetricsTracker  : Operation 'updateBook' completed in 61 ms

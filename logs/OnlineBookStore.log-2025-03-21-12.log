@@ -1,0 +1,30 @@
+2025-03-21T15:03:08.985+05:30  INFO 22908 --- [OnlineBookStore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-03-21T15:03:09.004+05:30  INFO 22908 --- [OnlineBookStore] [main] c.e.b.OnlineBookStoreApplication         : Started OnlineBookStoreApplication in 6.816 seconds (process running for 7.857)
+2025-03-21T15:03:16.152+05:30  INFO 22908 --- [OnlineBookStore] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-21T15:03:16.153+05:30  INFO 22908 --- [OnlineBookStore] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-21T15:03:16.156+05:30  INFO 22908 --- [OnlineBookStore] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-03-21T15:03:16.220+05:30  INFO 22908 --- [OnlineBookStore] [http-nio-8081-exec-2] c.example.bookstore.util.MetricsTracker  : Starting operation: getAllBooks
+2025-03-21T15:03:16.220+05:30  INFO 22908 --- [OnlineBookStore] [http-nio-8081-exec-2] c.e.bookstore.service.BookServiceImpl    : Fetching all books...
+2025-03-21T15:03:16.505+05:30  INFO 22908 --- [OnlineBookStore] [http-nio-8081-exec-2] c.e.bookstore.service.BookServiceImpl    : All books fetched successfully. Total books: 5
+2025-03-21T15:03:16.506+05:30  INFO 22908 --- [OnlineBookStore] [http-nio-8081-exec-2] c.example.bookstore.util.MetricsTracker  : Operation 'getAllBooks' completed in 287 ms
+2025-03-21T15:03:16.506+05:30  INFO 22908 --- [OnlineBookStore] [http-nio-8081-exec-2] c.example.bookstore.util.MetricsTracker  : --------------------------------------------------
+
+2025-03-21T15:04:02.531+05:30  INFO 22908 --- [OnlineBookStore] [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-21T15:04:02.536+05:30  INFO 22908 --- [OnlineBookStore] [RMI TCP Connection(3)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-21T15:04:02.568+05:30  INFO 22908 --- [OnlineBookStore] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-21T15:04:02.574+05:30  INFO 22908 --- [OnlineBookStore] [RMI TCP Connection(3)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-21T15:04:02.577+05:30  INFO 22908 --- [OnlineBookStore] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-21T15:04:02.593+05:30  INFO 22908 --- [OnlineBookStore] [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-21T15:58:13.875+05:30  INFO 5040 --- [OnlineBookStore] [main] c.e.b.OnlineBookStoreApplication         : Starting OnlineBookStoreApplication using Java 21.0.1 with PID 5040 (C:\Users\pc\eclipse-2024-workspace\OnlineBookStore\target\classes started by pc in C:\Users\pc\eclipse-2024-workspace\OnlineBookStore)
+2025-03-21T15:58:13.881+05:30  INFO 5040 --- [OnlineBookStore] [main] c.e.b.OnlineBookStoreApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-03-21T15:58:15.021+05:30  INFO 5040 --- [OnlineBookStore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-21T15:58:15.136+05:30  INFO 5040 --- [OnlineBookStore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 1 JPA repository interface.
+2025-03-21T15:58:16.039+05:30  INFO 5040 --- [OnlineBookStore] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-03-21T15:58:16.082+05:30  INFO 5040 --- [OnlineBookStore] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-21T15:58:16.082+05:30  INFO 5040 --- [OnlineBookStore] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-21T15:58:16.179+05:30  INFO 5040 --- [OnlineBookStore] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-21T15:58:16.180+05:30  INFO 5040 --- [OnlineBookStore] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2221 ms
+2025-03-21T15:58:16.451+05:30  INFO 5040 --- [OnlineBookStore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-21T15:58:16.579+05:30  INFO 5040 --- [OnlineBookStore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-21T15:58:16.652+05:30  INFO 5040 --- [OnlineBookStore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-21T15:58:17.256+05:30  INFO 5040 --- [OnlineBookStore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer

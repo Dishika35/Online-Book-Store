@@ -17,6 +17,11 @@ public class BookController {
         this.bookService = bookService;
     }
 
+    @GetMapping("/{id}") // Handles HTTP GET requests to retrieve a book by its ID
+    public Book getBookById(@PathVariable Long id) {
+        return bookService.getBookById(id);
+    }
+
     @GetMapping // Handles HTTP GET requests to retrieve all books
     public List<Book> getAllBooks() {
         return bookService.getAllBooks();
